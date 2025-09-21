@@ -48,7 +48,7 @@ A simple **CRM (Customer Relationship Management) Mobile App** built using **Rea
 4. **Run the App**
    - npx expo start
 5. **Environment Variables**
-   - export const API_URL = "http://localhost:5000";
+   - export const API_URL = http://localhost:5000;
 
 ---
 
@@ -61,6 +61,39 @@ A simple **CRM (Customer Relationship Management) Mobile App** built using **Rea
 - Lead value tracking
 
 - Linking multiple leads to a customer
+
+---
+
+## 📂 File Structure
+
+/src
+├─ /screens
+│ ├─ /Auth
+│ │ ├─ LoginScreen.jsx
+│ │ └─ RegisterScreen.jsx
+│ ├─ HomeScreen.jsx
+│ ├─ /Customers
+│ │ ├─ CustomerListScreen.jsx
+│ │ ├─ CustomerDetailScreen.jsx
+│ │ ├─ AddEditCustomerScreen.jsx
+│ │ └─ SelectLeadScreen.jsx
+│ ├─ /Leads
+│ │ ├─ LeadListScreen.jsx
+│ │ └─ AddEditLeadScreen.jsx
+│ └─ /Dashboard
+│ └─ DashboardScreen.jsx
+├─ /context
+│ └─ ThemeContext.js
+└─ /services
+└─ api.js
+
+---
+
+## ✅ Author
+
+- B. S. L. Sravya
+
+- Email: sravyabulusu2005@gmail.com
 
 
 
