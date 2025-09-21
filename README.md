@@ -1,6 +1,6 @@
 # Mini CRM Mobile Application
 
-A simple **CRM (Customer Relationship Management) Mobile App** built using **React Native** with API integration for managing Customers and Leads. Includes a Dashboard with charts and supports light/dark mode across the app.
+A simple **CRM (Customer Relationship Management) Mobile App** built using **React Native** with API integration for managing Customers and Leads. Includes a Dashboard with charts across the app.
 
 ---
 
