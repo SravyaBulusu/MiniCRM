@@ -17,9 +17,8 @@ A simple **CRM (Customer Relationship Management) Mobile App** built using **Rea
   - Pie chart for Leads by Status
   - Bar chart for Leads Count by Status
   - Bar chart for Total Values
-- Light/Dark Mode toggle for the entire app
 - Navigation between screens using React Navigation
-- API integration (mock or real backend)
+- API integration (mock)
 
 ---
 
@@ -28,10 +27,7 @@ A simple **CRM (Customer Relationship Management) Mobile App** built using **Rea
 - **Frontend:** React Native, React Native Paper, React Navigation
 - **Charts:** `react-native-chart-kit`
 - **State Management:** React Context API
-- **Backend:** Mock API (JSON Server) or real API
-- **Other Libraries:**  
-  - `react-native-gesture-handler`  
-  - `react-native-reanimated`  
+- **Backend:** Mock API (JSON Server)
 
 ---
 
