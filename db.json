@@ -1,0 +1,102 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "test@test.com",
+      "password": "1234"
+    },
+    {
+      "id": "558b",
+      "email": "Example@test.com",
+      "password": "1234"
+    },
+    {
+      "id": "fd04",
+      "email": "Crm@test.com",
+      "password": "1234"
+    }
+  ],
+  "customers": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "phone": "1234567890",
+      "company": "ABC Corp",
+      "leads": [
+        "4"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Alice",
+      "email": "Alice@example.com",
+      "phone": "9087652820",
+      "company": "DEF Corp",
+      "leads": []
+    },
+    {
+      "id": "3",
+      "name": "Bob",
+      "email": "Bob@gmail.com",
+      "phone": "9065478901",
+      "company": "Ios",
+      "leads": []
+    },
+    {
+      "id": "4",
+      "name": "Charlie",
+      "email": "Charlie@example.com",
+      "phone": "9087654679",
+      "company": "Corps",
+      "leads": [
+        "7"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Crm",
+      "email": "Crm@example.com",
+      "phone": "9087654567",
+      "company": "Corps"
+    }
+  ],
+  "leads": [
+    {
+      "id": "4",
+      "title": "Cloud Migration",
+      "status": "New",
+      "value": 7000,
+      "createdAt": "2025-09-21T12:15:00Z",
+      "customerIds": [
+        "1"
+      ]
+    },
+    {
+      "id": "6",
+      "customerIds": null,
+      "title": "Project1",
+      "status": "Lost",
+      "value": 3000,
+      "createdAt": "2025-09-21T11:34:41.807Z"
+    },
+    {
+      "id": "7",
+      "customerIds": [
+        "4"
+      ],
+      "title": "Project2",
+      "status": "Converted",
+      "value": 9000,
+      "createdAt": "2025-09-21T11:35:08.894Z"
+    },
+    {
+      "id": 8,
+      "customerIds": null,
+      "title": "Project 3",
+      "status": "New",
+      "value": 30000,
+      "createdAt": "2025-09-21T14:23:40.203Z"
+    }
+  ]
+}
