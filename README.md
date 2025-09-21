@@ -41,24 +41,26 @@ A simple **CRM (Customer Relationship Management) Mobile App** built using **Rea
    ```bash
    git clone https://github.com/SravyaBulusu/MiniCRM
    cd MiniCRM
-2. Install dependencies
-   npm install
-3. Run Mock API (Optional)
-   npx json-server --watch db.json --port 5000
-4. Run the App
-   npx expo start
-5. Environment Variables
-   export const API_URL = "http://localhost:5000";
+2. **Install dependencies**
+   - npm install
+3. **Run Mock API**
+   - npx json-server --watch db.json --port 5000
+4. **Run the App**
+   - npx expo start
+5. **Environment Variables**
+   - export const API_URL = "http://localhost:5000";
 
-💡 Bonus Features
+---
 
-Dashboard with multiple charts
+## 💡 Bonus Features
 
-Mobile-friendly UI
+- Dashboard with multiple charts
 
-Lead value tracking
+- Mobile-friendly UI
 
-Linking multiple leads to a customer
+- Lead value tracking
+
+- Linking multiple leads to a customer
 
 
 
