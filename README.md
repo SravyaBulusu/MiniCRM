@@ -61,25 +61,5 @@ Lead value tracking
 Linking multiple leads to a customer
 
 
-📂 File Structure (Simplified)
-/src
-├─ /screens
-│ ├─ /Auth
-│ │ ├─ LoginScreen.jsx
-│ │ └─ RegisterScreen.jsx
-│ ├─ HomeScreen.jsx
-│ ├─ /Customers
-│ │ ├─ CustomerListScreen.jsx
-│ │ ├─ CustomerDetailScreen.jsx
-│ │ ├─ AddEditCustomerScreen.jsx
-│ │ └─ SelectLeadScreen.jsx
-│ ├─ /Leads
-│ │ ├─ LeadListScreen.jsx
-│ │ └─ AddEditLeadScreen.jsx
-│ └─ /Dashboard
-│ └─ DashboardScreen.jsx
-├─ /context
-│ └─ ThemeContext.js
-└─ /services
-└─ api.js
+
 
